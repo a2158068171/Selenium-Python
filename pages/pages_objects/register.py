@@ -5,4 +5,4 @@ class Register:
     emailInput = (By.XPATH, "//input[@name='email']")
     ageInput = (By.XPATH, "//input[@id='ageSlider']")
     registerButton = (By.XPATH, "//input[@type='submit']")
-    userRegisteredMessage = (By.XPATH, "//*[id='formMessage']")
+    userRegisteredMessage = (By.XPATH, "//*[@id='formMessage']")
